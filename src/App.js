@@ -5,10 +5,11 @@ import Home from "./Home";
 
 function App(){
     return(
-        <>
-            <NavBar/>
-            <Home/>
-        </>
+        <div>
+    <NavBar />
+    <Product />
+    
+        </div>
     );
 }
 
