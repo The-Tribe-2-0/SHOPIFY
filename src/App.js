@@ -1,12 +1,14 @@
 import React from "react";
-import './App.css'
-import NavBar from "./NavBar";
-
+import './App.css';
+import NavBar from './NavBar';
+import Product from "./ProductList";
 function App(){
     return(
-        <>
-            <NavBar/>
-        </>
+        <div>
+    <NavBar />
+    <Product />
+    
+        </div>
     );
 }
 
